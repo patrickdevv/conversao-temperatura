@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Conversão de Temperatura" title="#ConverteTemperatura" src="./img/termometro.jpg" />
+    <img alt="Conversão de Temperatura" title="#ConverteTemperatura" src="./src/img/termometro.jpg" />
 </h1>
 
 <h4 align="center"> 
