@@ -33,14 +33,15 @@ Trata-se de uma calculadora para conversão de temperaturas Celsus para Fahrenhe
 
 ### Pré-requisitos
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js][nodejs]. 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode][vscode]
+Antes de começar, você vai precisar ter instalado em sua máquina a seguinte ferramenta:
+[Docker](https://www.docker.com/). 
 
-### 🎲 Rodando a aplicação através de imagem Docker - Utilizando comando Docker container run
+
+### 🎲 Rodando a aplicação através de imagem Docker - Utilizando comando "docker container run"
 
 ```bash
 # no terminal digitar o comando
 $ docker container run -p 8080:8080 -d patrickdevv/conversao-temperatura
+
 # O servidor inciará na porta:8080 - acesse http://localhost:8080 
 ```
