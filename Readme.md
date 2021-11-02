@@ -37,7 +37,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina a seguinte f
 [Docker](https://www.docker.com/). 
 
 
-### ![docker](https://user-images.githubusercontent.com/93482022/139859015-74ca65da-57b9-44f0-9652-5568e1ec31bd.png) Rodando a aplicação através de imagem Docker - Utilizando comando "docker container run"
+### <img alt="License" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" width="32" height="32"> Rodando a aplicação através de imagem Docker - Utilizando comando "docker container run"
 
 ```bash
 # no terminal digitar o comando
