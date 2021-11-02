@@ -1,22 +1,7 @@
 version: '3.8'
 
-networks:
-  conversao_temperatura_net:
-    driver: bridge
-
 services:
   conversao-temperatura:
     image: patrickdevv/conversao-temperatura:latest
     ports: 
       - 8080:8080
-    networks:
-      - conversao_temperatura_net
-    depends_on:
-      - nginx
-    
-  nginx:
-    image: nginx
-    ports:
-      - "8080:80"
-    environment:
-      - NGINX_PORT=80

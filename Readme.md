@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Conversão de Temperatura" title="#ConverteTemperatura" src="./src/img/termometro.jpg" />
+    <img alt="Conversão de Temperatura" title="#ConverteTemperatura" src="./src/img/termometro.jpg" width="50%" height="50%" />
 </h1>
 
 <h4 align="center"> 
@@ -14,7 +14,7 @@
   	
   
   
-  <a href="https://github.com/tgmarinho/nlw1/commits/master">
+  <a href="https://github.com/patrickdevv/conversao-temperatura/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/patrickdevv/conversao-temperatura">
   </a>
 
@@ -31,46 +31,16 @@ Trata-se de uma calculadora para conversão de temperaturas Celsus para Fahrenhe
 
 ## 🚀 Como executar o projeto
 
-Podemos considerar este projeto como sendo divido em três partes:
-1. Back End (pasta server) 
-2. Front End (pasta web)
-3. Mobile (pasta mobile)
-
-💡Tanto o Front End quanto o Mobile precisam que o Back End esteja sendo executado para funcionar.
-
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js][nodejs]. 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode][vscode]
 
-### 🎲 Rodando o Back End (servidor)
+### 🎲 Rodando a aplicação através de imagem Docker - Utilizando comando Docker container run
 
 ```bash
-# Clone este repositório
-$ git clone https://github.com/tgmarinho/nlw1
-# Acesse a pasta do projeto no terminal/cmd
-$ cd nlw1
-# Vá para a pasta server
-$ cd server
-# Instale as dependências
-$ npm install
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server
-# O servidor inciará na porta:3333 - acesse http://localhost:3333 
+# no terminal digitar o comando
+$ docker container run -p 8080:8080 -d patrickdevv/conversao-temperatura
+# O servidor inciará na porta:8080 - acesse http://localhost:8080 
 ```
-
-### 🧭 Rodando a aplicação web (Front End)
-
-```bash
-# Clone este repositório
-$ git clone https://github.com/tgmarinho/nlw1
-# Acesse a pasta do projeto no seu terminal/cmd
-$ cd nlw1
-# Vá para a pasta da aplicação Front End
-$ cd web
-# Instale as dependências
-$ npm install
-# Execute a aplicação em modo de desenvolvimento
-$ npm run start
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
